@@ -2,38 +2,66 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
-    <title>iBookStore | lite weight Book Store Manageent System </title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Pages / Login - NiceAdmin Bootstrap Template</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet" />
+    <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- <meta charset="utf-8"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"> -->
+    <!-- <title>iBookStore | lite weight Book Store Manageent System </title> -->
+    <!-- <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" /> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/plugins.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/authentication/form-2.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="assets/css/forms/theme-checkbox-radio.css">
     <link rel="stylesheet" type="text/css" href="assets/css/forms/switches.css">
     <link href="assets/css/scrollspyNav.css" rel="stylesheet" type="text/css" />
-    <link href="plugins/animate/animate.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/animate/animate.css" rel="stylesheet" type="text/css" /> -->
     <script src="plugins/sweetalerts/promise-polyfill.js"></script>
     <link href="plugins/sweetalerts/sweetalert2.min.css" rel="stylesheet" type="text/css" />
     <link href="plugins/sweetalerts/sweetalert.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/components/custom-sweetalert.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="assets/css/components/custom-sweetalert.css" rel="stylesheet" type="text/css" />
     <link href="plugins/apex/apexcharts.css" rel="stylesheet" type="text/css">
     <link href="assets/css/dashboard/dash_1.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/users/user-profile.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="plugins/jquery-step/jquery.steps.css">
-    <link rel="stylesheet" type="text/css" href="plugins/select2/select2.min.css">
-    <link href="plugins/flatpickr/flatpickr.css" rel="stylesheet" type="text/css">
-    <link href="plugins/flatpickr/custom-flatpickr.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="plugins/table/datatable/datatables.css">
-    <link rel="stylesheet" type="text/css" href="plugins/table/datatable/custom_dt_html5.css">
-    <link rel="stylesheet" type="text/css" href="plugins/table/datatable/dt-global_style.css">
-    <link href="assets/css/apps/invoice.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="plugins/table/datatable/datatables.css">
-    <link rel="stylesheet" type="text/css" href="plugins/table/datatable/dt-global_style.css">
-    <link rel="stylesheet" type="text/css" href="plugins/table/datatable/custom_dt_multiple_tables.css">
-    <link href="plugins/apex/apexcharts.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/users/user-profile.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="plugins/jquery-step/jquery.steps.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="plugins/select2/select2.min.css"> -->
+    <!-- <link href="plugins/flatpickr/flatpickr.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="plugins/flatpickr/custom-flatpickr.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="plugins/table/datatable/datatables.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="plugins/table/datatable/custom_dt_html5.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="plugins/table/datatable/dt-global_style.css"> -->
+    <!-- <link href="assets/css/apps/invoice.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="plugins/table/datatable/datatables.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="plugins/table/datatable/dt-global_style.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="plugins/table/datatable/custom_dt_multiple_tables.css"> -->
+    <!-- <link href="plugins/apex/apexcharts.css" rel="stylesheet" type="text/css"> -->
     <style>
         #formValidate .wizard>.content {
             min-height: 25em;
